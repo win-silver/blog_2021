@@ -58,7 +58,7 @@ const AskModal = ({
         <p>{description}</p>
         <div className="buttons">
           <StyledButton onClick={onCancel}>{cancelText}</StyledButton>
-          <StyledButton cyan conClick={onConfirm}>
+          <StyledButton cyan onClick={onConfirm}>
             {confirmText}
           </StyledButton>
         </div>
